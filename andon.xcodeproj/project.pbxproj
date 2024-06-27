@@ -56,15 +56,31 @@
 		56B44D792C2D4DE300D8651B /* andon */ = {
 			isa = PBXGroup;
 			children = (
-				56B44D7A2C2D4DE300D8651B /* AppDelegate.swift */,
-				56B44D7C2C2D4DE300D8651B /* SceneDelegate.swift */,
+				56B44D8E2C2D691000D8651B /* App */,
 				56B44D7E2C2D4DE300D8651B /* ViewController.swift */,
 				56B44D802C2D4DE300D8651B /* Main.storyboard */,
+				56B44D8F2C2D694500D8651B /* Resources */,
+			);
+			path = andon;
+			sourceTree = "<group>";
+		};
+		56B44D8E2C2D691000D8651B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				56B44D7A2C2D4DE300D8651B /* AppDelegate.swift */,
+				56B44D7C2C2D4DE300D8651B /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		56B44D8F2C2D694500D8651B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				56B44D832C2D4DE500D8651B /* Assets.xcassets */,
 				56B44D852C2D4DE500D8651B /* LaunchScreen.storyboard */,
 				56B44D882C2D4DE500D8651B /* Info.plist */,
 			);
-			path = andon;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +310,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KFD27J2TGQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = andon/Info.plist;
+				INFOPLIST_FILE = andon/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +338,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KFD27J2TGQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = andon/Info.plist;
+				INFOPLIST_FILE = andon/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
