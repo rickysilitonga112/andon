@@ -11,6 +11,8 @@ import UIKit
 class MainTabbarView: UITabBarController {
     @IBOutlet weak var tabbar: UITabBar!
     
+    var presenter: MainTabbarPresenter?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

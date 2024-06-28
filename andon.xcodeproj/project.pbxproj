@@ -17,6 +17,13 @@
 		56B44D972C2D723100D8651B /* MainTabbarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B44D962C2D723100D8651B /* MainTabbarView.storyboard */; };
 		56B44DB92C2E93F200D8651B /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56B44DB82C2E93F200D8651B /* SplashView.xib */; };
 		56B44DBA2C2E93F200D8651B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DB72C2E93F200D8651B /* SplashView.swift */; };
+		56B44DBC2C2E9CCF00D8651B /* MainTabbarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DBB2C2E9CCF00D8651B /* MainTabbarRouter.swift */; };
+		56B44DBE2C2E9CE000D8651B /* MainTabbarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DBD2C2E9CE000D8651B /* MainTabbarPresenter.swift */; };
+		56B44DC22C2E9D0B00D8651B /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DC12C2E9D0B00D8651B /* BasePresenter.swift */; };
+		56B44DC42C2E9D1B00D8651B /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DC32C2E9D1B00D8651B /* BaseRouter.swift */; };
+		56B44DC62C2E9D2800D8651B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DC52C2E9D2800D8651B /* BaseViewController.swift */; };
+		56B44DC82C2E9DC500D8651B /* MainTabbarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DC72C2E9DC500D8651B /* MainTabbarInteractor.swift */; };
+		56B44DCA2C2E9DD400D8651B /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DC92C2E9DD400D8651B /* BaseInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,13 @@
 		56B44D962C2D723100D8651B /* MainTabbarView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabbarView.storyboard; sourceTree = "<group>"; };
 		56B44DB72C2E93F200D8651B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		56B44DB82C2E93F200D8651B /* SplashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
+		56B44DBB2C2E9CCF00D8651B /* MainTabbarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarRouter.swift; sourceTree = "<group>"; };
+		56B44DBD2C2E9CE000D8651B /* MainTabbarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarPresenter.swift; sourceTree = "<group>"; };
+		56B44DC12C2E9D0B00D8651B /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		56B44DC32C2E9D1B00D8651B /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		56B44DC52C2E9D2800D8651B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		56B44DC72C2E9DC500D8651B /* MainTabbarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarInteractor.swift; sourceTree = "<group>"; };
+		56B44DC92C2E9DD400D8651B /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				56B44D8E2C2D691000D8651B /* App */,
+				56B44DBF2C2E9CF300D8651B /* Common */,
 				56B44D902C2D719000D8651B /* Modules */,
 				56B44D7E2C2D4DE300D8651B /* ViewController.swift */,
 				56B44D802C2D4DE300D8651B /* Main.storyboard */,
@@ -106,6 +121,9 @@
 			children = (
 				56B44D942C2D71F200D8651B /* MainTabbarView.swift */,
 				56B44D962C2D723100D8651B /* MainTabbarView.storyboard */,
+				56B44DBB2C2E9CCF00D8651B /* MainTabbarRouter.swift */,
+				56B44DBD2C2E9CE000D8651B /* MainTabbarPresenter.swift */,
+				56B44DC72C2E9DC500D8651B /* MainTabbarInteractor.swift */,
 			);
 			path = MainTabbar;
 			sourceTree = "<group>";
@@ -117,6 +135,25 @@
 				56B44DB82C2E93F200D8651B /* SplashView.xib */,
 			);
 			path = SplashView;
+			sourceTree = "<group>";
+		};
+		56B44DBF2C2E9CF300D8651B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				56B44DC02C2E9CFF00D8651B /* BaseModules */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		56B44DC02C2E9CFF00D8651B /* BaseModules */ = {
+			isa = PBXGroup;
+			children = (
+				56B44DC12C2E9D0B00D8651B /* BasePresenter.swift */,
+				56B44DC32C2E9D1B00D8651B /* BaseRouter.swift */,
+				56B44DC52C2E9D2800D8651B /* BaseViewController.swift */,
+				56B44DC92C2E9DD400D8651B /* BaseInteractor.swift */,
+			);
+			path = BaseModules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,11 +229,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B44DC82C2E9DC500D8651B /* MainTabbarInteractor.swift in Sources */,
 				56B44D7F2C2D4DE300D8651B /* ViewController.swift in Sources */,
+				56B44DC42C2E9D1B00D8651B /* BaseRouter.swift in Sources */,
+				56B44DC22C2E9D0B00D8651B /* BasePresenter.swift in Sources */,
 				56B44D7B2C2D4DE300D8651B /* AppDelegate.swift in Sources */,
+				56B44DCA2C2E9DD400D8651B /* BaseInteractor.swift in Sources */,
+				56B44DBE2C2E9CE000D8651B /* MainTabbarPresenter.swift in Sources */,
+				56B44DC62C2E9D2800D8651B /* BaseViewController.swift in Sources */,
 				56B44DBA2C2E93F200D8651B /* SplashView.swift in Sources */,
 				56B44D7D2C2D4DE300D8651B /* SceneDelegate.swift in Sources */,
 				56B44D952C2D71F200D8651B /* MainTabbarView.swift in Sources */,
+				56B44DBC2C2E9CCF00D8651B /* MainTabbarRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
