@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		56B44D7B2C2D4DE300D8651B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44D7A2C2D4DE300D8651B /* AppDelegate.swift */; };
 		56B44D7D2C2D4DE300D8651B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44D7C2C2D4DE300D8651B /* SceneDelegate.swift */; };
-		56B44D7F2C2D4DE300D8651B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44D7E2C2D4DE300D8651B /* ViewController.swift */; };
-		56B44D822C2D4DE300D8651B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 56B44D812C2D4DE300D8651B /* Base */; };
 		56B44D842C2D4DE500D8651B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B44D832C2D4DE500D8651B /* Assets.xcassets */; };
 		56B44D872C2D4DE500D8651B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 56B44D862C2D4DE500D8651B /* Base */; };
 		56B44D952C2D71F200D8651B /* MainTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44D942C2D71F200D8651B /* MainTabbarView.swift */; };
@@ -28,14 +26,15 @@
 		56B44DD22C2EA5E500D8651B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 56B44DD12C2EA5E500D8651B /* FirebaseStorage */; };
 		56B44DD42C2EA5ED00D8651B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 56B44DD32C2EA5ED00D8651B /* FirebaseFirestore */; };
 		56B44DD62C2EA5F300D8651B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 56B44DD52C2EA5F300D8651B /* FirebaseFirestoreSwift */; };
+		56B44DE42C2EBDB000D8651B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56B44DE32C2EBDB000D8651B /* GoogleService-Info.plist */; };
+		8096E788D3F4B08D1EDDE789 /* Pods_andon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EDBE4BE539BFE56B3BD66F /* Pods_andon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41041F4410F739033121446F /* Pods-andon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-andon.debug.xcconfig"; path = "Target Support Files/Pods-andon/Pods-andon.debug.xcconfig"; sourceTree = "<group>"; };
 		56B44D772C2D4DE300D8651B /* andon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = andon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B44D7A2C2D4DE300D8651B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B44D7C2C2D4DE300D8651B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56B44D7E2C2D4DE300D8651B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		56B44D812C2D4DE300D8651B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56B44D832C2D4DE500D8651B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56B44D862C2D4DE500D8651B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56B44D882C2D4DE500D8651B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +49,9 @@
 		56B44DC52C2E9D2800D8651B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		56B44DC72C2E9DC500D8651B /* MainTabbarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarInteractor.swift; sourceTree = "<group>"; };
 		56B44DC92C2E9DD400D8651B /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		56B44DE32C2EBDB000D8651B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67483F5C925035056490B57E /* Pods-andon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-andon.release.xcconfig"; path = "Target Support Files/Pods-andon/Pods-andon.release.xcconfig"; sourceTree = "<group>"; };
+		B5EDBE4BE539BFE56B3BD66F /* Pods_andon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_andon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				56B44DD22C2EA5E500D8651B /* FirebaseStorage in Frameworks */,
 				56B44DD42C2EA5ED00D8651B /* FirebaseFirestore in Frameworks */,
 				56B44DD62C2EA5F300D8651B /* FirebaseFirestoreSwift in Frameworks */,
+				8096E788D3F4B08D1EDDE789 /* Pods_andon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +76,7 @@
 				56B44D792C2D4DE300D8651B /* andon */,
 				56B44D782C2D4DE300D8651B /* Products */,
 				56B44DCE2C2EA5BB00D8651B /* Frameworks */,
+				E3E031F9AB3952C552963E22 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +94,6 @@
 				56B44D8E2C2D691000D8651B /* App */,
 				56B44DBF2C2E9CF300D8651B /* Common */,
 				56B44D902C2D719000D8651B /* Modules */,
-				56B44D7E2C2D4DE300D8651B /* ViewController.swift */,
-				56B44D802C2D4DE300D8651B /* Main.storyboard */,
 				56B44D8F2C2D694500D8651B /* Resources */,
 			);
 			path = andon;
@@ -112,6 +114,7 @@
 				56B44D832C2D4DE500D8651B /* Assets.xcassets */,
 				56B44D852C2D4DE500D8651B /* LaunchScreen.storyboard */,
 				56B44D882C2D4DE500D8651B /* Info.plist */,
+				56B44DE32C2EBDB000D8651B /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -168,8 +171,18 @@
 		56B44DCE2C2EA5BB00D8651B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5EDBE4BE539BFE56B3BD66F /* Pods_andon.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3E031F9AB3952C552963E22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41041F4410F739033121446F /* Pods-andon.debug.xcconfig */,
+				67483F5C925035056490B57E /* Pods-andon.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56B44D8B2C2D4DE500D8651B /* Build configuration list for PBXNativeTarget "andon" */;
 			buildPhases = (
+				42F3B1C2F74854EB70E34E88 /* [CP] Check Pods Manifest.lock */,
 				56B44D732C2D4DE300D8651B /* Sources */,
 				56B44D742C2D4DE300D8651B /* Frameworks */,
 				56B44D752C2D4DE300D8651B /* Resources */,
+				71D461A35EB9623A1052C57C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,11 +258,53 @@
 				56B44DB92C2E93F200D8651B /* SplashView.xib in Resources */,
 				56B44D842C2D4DE500D8651B /* Assets.xcassets in Resources */,
 				56B44D872C2D4DE500D8651B /* Base in Resources */,
-				56B44D822C2D4DE300D8651B /* Base in Resources */,
+				56B44DE42C2EBDB000D8651B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42F3B1C2F74854EB70E34E88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-andon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D461A35EB9623A1052C57C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-andon/Pods-andon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-andon/Pods-andon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-andon/Pods-andon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56B44D732C2D4DE300D8651B /* Sources */ = {
@@ -255,7 +312,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				56B44DC82C2E9DC500D8651B /* MainTabbarInteractor.swift in Sources */,
-				56B44D7F2C2D4DE300D8651B /* ViewController.swift in Sources */,
 				56B44DC42C2E9D1B00D8651B /* BaseRouter.swift in Sources */,
 				56B44DC22C2E9D0B00D8651B /* BasePresenter.swift in Sources */,
 				56B44D7B2C2D4DE300D8651B /* AppDelegate.swift in Sources */,
@@ -272,14 +328,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		56B44D802C2D4DE300D8651B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56B44D812C2D4DE300D8651B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		56B44D852C2D4DE500D8651B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,17 +460,18 @@
 		};
 		56B44D8C2C2D4DE500D8651B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41041F4410F739033121446F /* Pods-andon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KFD27J2TGQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = andon/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,17 +489,18 @@
 		};
 		56B44D8D2C2D4DE500D8651B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67483F5C925035056490B57E /* Pods-andon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KFD27J2TGQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = andon/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
