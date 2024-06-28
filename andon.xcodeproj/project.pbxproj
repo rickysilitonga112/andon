@@ -24,7 +24,6 @@
 		56B44DC62C2E9D2800D8651B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DC52C2E9D2800D8651B /* BaseViewController.swift */; };
 		56B44DC82C2E9DC500D8651B /* MainTabbarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DC72C2E9DC500D8651B /* MainTabbarInteractor.swift */; };
 		56B44DCA2C2E9DD400D8651B /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B44DC92C2E9DD400D8651B /* BaseInteractor.swift */; };
-		56B44DCC2C2EA3B100D8651B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56B44DCB2C2EA3B100D8651B /* GoogleService-Info.plist */; };
 		56B44DD02C2EA5BB00D8651B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 56B44DCF2C2EA5BB00D8651B /* FirebaseAuth */; };
 		56B44DD22C2EA5E500D8651B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 56B44DD12C2EA5E500D8651B /* FirebaseStorage */; };
 		56B44DD42C2EA5ED00D8651B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 56B44DD32C2EA5ED00D8651B /* FirebaseFirestore */; };
@@ -51,7 +50,6 @@
 		56B44DC52C2E9D2800D8651B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		56B44DC72C2E9DC500D8651B /* MainTabbarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarInteractor.swift; sourceTree = "<group>"; };
 		56B44DC92C2E9DD400D8651B /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
-		56B44DCB2C2EA3B100D8651B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 				56B44D832C2D4DE500D8651B /* Assets.xcassets */,
 				56B44D852C2D4DE500D8651B /* LaunchScreen.storyboard */,
 				56B44D882C2D4DE500D8651B /* Info.plist */,
-				56B44DCB2C2EA3B100D8651B /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -247,7 +244,6 @@
 				56B44D842C2D4DE500D8651B /* Assets.xcassets in Resources */,
 				56B44D872C2D4DE500D8651B /* Base in Resources */,
 				56B44D822C2D4DE300D8651B /* Base in Resources */,
-				56B44DCC2C2EA3B100D8651B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
